@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    top: 0px;
+    left: 0px;
+    position: sticky;
+}
+
+nav {
+    height: 60px;
+    background-color: rgba(0, 153, 255, 0.173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover,
+nav li:hover {
+    background-color: aliceblue;
+    color: blue;
+}
+
+nav a:active {
+    color: red;
+}
+
+nav li {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+
+}
+
+article {
+    background-color: gainsboro;
+    margin: 50px;
+    padding: 30px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article > h1{
+    margin-right: 50px;
+    background-color: aquamarine;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#a1 img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+ul {
+    margin: 20px;
+}
+
+#a2 {
+    background-color: rgba(0, 255, 21, 0.173);
+}
+
+.c3 {
+    background-color: rgba(0, 153, 255, 0.173);
+}
+
+.c3>h1 {
+    color: blue;
+}
+
+/* .c3 > ul > li { 컨트롤슬래쉬} */
+.c3 li {
+    color: rgb(182, 177, 14);
+}
